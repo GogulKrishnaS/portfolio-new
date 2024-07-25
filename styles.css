@@ -158,6 +158,41 @@ html {
     margin-bottom: 10px;
 }
 
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info, .profile-img-container {
+        margin: 0;
+    }
+
+    .profile-img {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    section p, section ul li {
+        font-size: 1rem;
+    }
+}
+
 .certifications li a {
     text-decoration: none;
     color: #007BFF;
